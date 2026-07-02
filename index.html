@@ -15,6 +15,8 @@
         padding: 0;
         min-width: 100% !important;
         font-family: "Raleway";
+        background-image: url("./assets/pancake_bunny.png");
+        background-repeat: repeat;
       }
       .table {
         border: none !important;
@@ -39,17 +41,19 @@
         letter-spacing: 0.15em;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        color: white;
       }
       .text-otp {
-        color: rgba(0, 0, 0, 0.6);
+        color: white;
       }
       .border-footer {
         padding-top: 2rem;
         width: 100%;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid white;
       }
       .text-center {
         text-align: center;
+        color: white;
       }
       .mail-link {
         color: #d9a15f;
@@ -57,6 +61,9 @@
       }
       .test-html {
         color: darkorange;
+      }
+      .paragraph{
+        color: white;
       }
 
     </style>
@@ -85,13 +92,13 @@
       </tr>
       <tr>
         <td>
-          <p style="margin-bottom: 2.5rem">
+          <p style="margin-bottom: 2.5rem" class="paragraph">
             Hi Jonathan, you’re a click away from earning points and getting
             awesome rewards.
           </p>
-          <p>
+          <p class="paragraph">
             Enter the OTP code below on your app.
-            <b>
+            <b class="paragraph">
               Don’t share this code to anyone, including people from Capital
               Bakery!
             </b>
@@ -108,7 +115,7 @@
       </tr>
       <tr>
         <td style="padding-top: 2.5rem">
-          <p>OTP Code:</p>
+          <p class="text-otp">OTP Code:</p>
           <h2 class="otp-code">6743</h2>
           <p class="text-otp">Code will be valid for 24 hours.</p>
         </td>

@@ -1,0 +1,50 @@
+label[for="registration"]{
+    text-align: center;
+    font-size: 40px;
+}
+table tr td h2{
+    text-align: center;
+}
+.label{
+    margin-top: 25px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    font-family: "Raleway";
+}
+table{
+    margin: 0 auto;
+}
+.header-email{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.header-logo {
+    position: absolute;
+    top: 31%;
+    left: 30%;
+}
+.header-banner {
+    width: 50%;
+    height: auto; 
+}
+button[type="submit"]{
+    font-family: "Raleway";
+}
+input[placeholder]{
+    font-family: "Raleway";
+}
+form {
+    margin: 0 auto;max-width: 720px;
+}
+input[type=text],input[type=email] {
+    border: none; border-bottom: 1px solid black;
+    margin-top: 25px;
+}
+.data label{
+    margin-top: 25px;
+}

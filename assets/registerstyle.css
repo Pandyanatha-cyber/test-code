@@ -29,7 +29,7 @@ table{
     left: 30%;
 }
 .header-banner {
-    width: 50%;
+    width: 47%;
     height: auto; 
 }
 button[type="submit"]{
@@ -47,4 +47,12 @@ input[type=text],input[type=email] {
 }
 .data label{
     margin-top: 25px;
+}
+.text-center{
+    text-align: center;
+}
+.border-footer {
+    padding-top: 2rem;
+    width: 100%;
+    border-bottom: 1px solid black;
 }
